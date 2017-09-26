@@ -24,7 +24,7 @@ main_page_head = '''
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i" rel="stylesheet">
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding-top: 50px;
             background-color: #dedcdc;
             font-family: 'Lato', sans-serif;
         }
@@ -64,7 +64,7 @@ main_page_head = '''
             font-weight: 300;
             border-radius: 2px;
         }
-        
+
         h1 i{
             position: relative;
             top: 5px !important;
@@ -116,8 +116,15 @@ main_page_head = '''
         .navbar-inverse .navbar-brand {
             color: #fff;
         }
- 
-        
+        .background-hero {
+            background-image: url('https://d193o8p26ehxdy.cloudfront.net/img-thumbs/960w/6YV7TOOVTA.jpg');
+            background-repeat: repeat-x;
+            background-size: cover;
+            background-position: -70px -70px;
+            height: 435px;
+        }
+
+
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -173,6 +180,16 @@ main_page_content = '''
           </div>
         </div>
       </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="clearfix">
+                <div class="background-hero">
+
+
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">
