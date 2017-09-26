@@ -13,3 +13,7 @@ $ python entertainment_center.py
 ```
 
 Running that command on the terminal will open a browser and display the site. You can click on the box art / poster image to play the trailer.
+
+### Background image credit
+For similar images go to:
+[stocksnap](https://stocksnap.io/photo/6YV7TOOVTA)
